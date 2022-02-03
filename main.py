@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 from time import sleep
 from requests import get
-
 import utils
+
+print("2bTracker\nuses https://2bqueue.info/\n")
 
 utils.init()
 
-print("Getting 2b2t player list...")
+print("Getting 2b2t player lists...")
 oldQueuePlayerList = get("https://2bqueue.info/players").json()["queue"]["players"]
 oldMainPlayerList = get("https://2bqueue.info/players").json()["server"]["players"]
 print("Done.")

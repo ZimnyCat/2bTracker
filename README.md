@@ -2,4 +2,4 @@
 
 Sends discord notifications when selected player(s) (names.txt) join/leave 2b2t queue/main server
 
-*uses https://2bqueue.info/*
+# Fixed by 2b2t admin on 24th of May 2022
